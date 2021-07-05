@@ -332,10 +332,10 @@ header .logo a {
 
 @media screen and (max-width: 768px) {
     #home .container {
-        height: 75%;
+        height: 95%;
         width: 75%;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 3rem;
     }
     #home img {
         width: 70%;
@@ -355,10 +355,34 @@ header .logo a {
         width: 100%;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 5rem;
     }
     #home img {
         width: 80%;
     }
+
+    #home h1 {
+        font-size: 2rem;
+        line-height: 36px;
+    }
+    #home h2 {
+        font-size: 1.2rem;
+    }
+
+
+    #home .get-started-btn {
+        padding: 10px 15px;
+    }
+
+    #home .play-video-btn{
+        font-size: 0.8rem;
+    }
+
+    #home .play-video-btn i{
+        font-size: 1.3rem;
+    }
+
+     
 }
 
 /*End Home Section*/
@@ -433,10 +457,11 @@ header .logo a {
 
 @media screen and (max-width:575px) {
     #about .txt-container {
-        padding: 35px 0 0 0;
+        padding:  35px 15px;
     }
     #about .txt-container.learn-more {
         padding: 25px 0 0 0;
+        padding:  25px 15px;
     }
 }
 
@@ -702,3 +727,15 @@ header .logo a {
 }
 
 /*End Team Section*/
+
+
+
+/* Portfolio Section */
+@media screen and (max-width:320px){
+    .portfolio-section ul{
+        width: 80%;
+        margin: auto;
+        flex-wrap: nowrap;
+        font-size: 0.9rem;
+    }
+}
